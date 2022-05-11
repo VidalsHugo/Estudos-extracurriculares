@@ -1,1 +1,3 @@
-# Repositório criado para Estudos extracurriculares
+# Estudos
+
+Repositório criado para Estudos Extracurriculares.
