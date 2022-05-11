@@ -1,1 +1,1 @@
-# Estudos-extracrurriculares
+# Repositório criado para Estudos extracurriculares
