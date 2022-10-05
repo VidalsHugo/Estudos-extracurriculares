@@ -44,7 +44,7 @@ public class Main {
 		double mediaIdade = (qtdMenor * 100)/pessoa.length;
 		
 		System.out.printf("Altura média: %.2f\n", mediaAltura);
-		System.out.printf("Pessoas com menos de 16 anos: %.1f/%\n", mediaIdade);
+		System.out.printf("Pessoas com menos de 16 anos: %.1f\n", mediaIdade);
 
 		for(int i=0;i<pessoa.length;i++) {
 			if(pessoa[i].getIdade() <16) {
