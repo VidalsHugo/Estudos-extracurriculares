@@ -1,0 +1,15 @@
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\bin\Debug\net7.0\Csharp2.exe
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\bin\Debug\net7.0\Csharp2.deps.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\bin\Debug\net7.0\Csharp2.runtimeconfig.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\bin\Debug\net7.0\Csharp2.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\bin\Debug\net7.0\Csharp2.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.csproj.AssemblyReference.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.AssemblyInfoInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.AssemblyInfo.cs
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\refint\Csharp2.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\Csharp2.genruntimeconfig.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp2\obj\Debug\net7.0\ref\Csharp2.dll
