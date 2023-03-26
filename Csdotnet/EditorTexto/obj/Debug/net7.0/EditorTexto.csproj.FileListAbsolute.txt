@@ -1,0 +1,15 @@
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\bin\Debug\net7.0\EditorTexto.exe
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\bin\Debug\net7.0\EditorTexto.deps.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\bin\Debug\net7.0\EditorTexto.runtimeconfig.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\bin\Debug\net7.0\EditorTexto.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\bin\Debug\net7.0\EditorTexto.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.csproj.AssemblyReference.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.AssemblyInfoInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.AssemblyInfo.cs
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\refint\EditorTexto.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\EditorTexto.genruntimeconfig.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\EditorTexto\obj\Debug\net7.0\ref\EditorTexto.dll
