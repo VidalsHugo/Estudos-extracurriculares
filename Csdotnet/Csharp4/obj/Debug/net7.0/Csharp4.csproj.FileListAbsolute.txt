@@ -1,0 +1,15 @@
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\bin\Debug\net7.0\Csharp4.exe
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\bin\Debug\net7.0\Csharp4.deps.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\bin\Debug\net7.0\Csharp4.runtimeconfig.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\bin\Debug\net7.0\Csharp4.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\bin\Debug\net7.0\Csharp4.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.csproj.AssemblyReference.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.AssemblyInfoInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.AssemblyInfo.cs
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\refint\Csharp4.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\Csharp4.genruntimeconfig.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp4\obj\Debug\net7.0\ref\Csharp4.dll

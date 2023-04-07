@@ -1,0 +1,15 @@
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\bin\Debug\net7.0\EditorHtml.exe
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\bin\Debug\net7.0\EditorHtml.deps.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\bin\Debug\net7.0\EditorHtml.runtimeconfig.json
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\bin\Debug\net7.0\EditorHtml.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\bin\Debug\net7.0\EditorHtml.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.csproj.AssemblyReference.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.AssemblyInfoInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.AssemblyInfo.cs
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\refint\EditorHtml.dll
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.pdb
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\EditorHtml.genruntimeconfig.cache
+C:\Users\Hugo Vidal\Desktop\Hugo\Cdotnet\Csharp5\obj\Debug\net7.0\ref\EditorHtml.dll
