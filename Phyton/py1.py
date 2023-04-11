@@ -1,0 +1,10 @@
+print("=================================")
+name = input("Digite o nome da Empresa: ")
+qtdFuncionario = int(input("Digite a quantidade de funcionários da Empresa: "))
+mediaMensalidade = float(input("Digite a média da mensalidade: "))
+print("=================================")
+
+print(f"Nome da Empresa: {name}")
+print(f"Quantidade de funcionários da empresa: {qtdFuncionario}")
+print(f"Média da mensalidade: {mediaMensalidade}")
+print("=================================")
