@@ -21,11 +21,3 @@ while resp != 5:
         excluirLista(lista)
     elif resp != 5:
         print("Digite um numero valido!")
-
-
-
-
-
-
-
-
