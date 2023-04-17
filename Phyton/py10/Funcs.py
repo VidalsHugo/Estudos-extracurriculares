@@ -6,9 +6,11 @@ def perguntar():
             "<L> - Para Listar um usuário: ").upper()
 
 def inserir(dicionario):
-    dicionario[input("Digite o login: ").upper()] = [input("Digite o nome: ").upper(),
-                                                        input("Digite a ultima data de acessor: "),
-                                                        input("Qual a ultima estacao acessada: ").upper()]
+    dicionario[input("Digite o login: ").upper()]=[input("Digite o nome: ").upper(),
+    input("Digite a ultima data de acessor: "),
+    input("Qual a ultima estacao acessada: ").upper()]
+
+    salvar(dicionario)
 
 def pesquisar(dicionario):
     procurado = input("Digite o nome do usuário: ").upper()
@@ -45,4 +47,8 @@ def listar(dicionario):
             break
     if flag == False:
         print("Não foi possivel encontrar o usuário.")
-    
+
+def salvar(dicionario):
+    with open("bd.txt", "a") as arquivo:
+        for chave, valor in dicionario.items():
+            arquivo.write(str(chave) + ": " + str(valor))
