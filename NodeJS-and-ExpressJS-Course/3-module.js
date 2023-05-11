@@ -1,13 +1,12 @@
 //modules
 
-const jhon = 'jhon'
-const peter = 'peter'
+//import
+const names = require('./4-names')
+const sayHi = require('./5-utils')
 
-
-const sayHi = (name) =>{
-    console.log(`Hello there ${name}`);
-}
+console.log(names);
 
 sayHi("Hugo")
-sayHi(jhon)
-sayHi(peter)
+sayHi(names.jhon)
+sayHi(names.peter)
+
