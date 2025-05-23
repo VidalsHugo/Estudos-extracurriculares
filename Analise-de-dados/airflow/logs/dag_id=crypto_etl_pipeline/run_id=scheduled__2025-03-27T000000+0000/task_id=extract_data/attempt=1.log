@@ -1,0 +1,152 @@
+[2025-05-23T18:29:44.545+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-23T18:29:44.562+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crypto_etl_pipeline.extract_data scheduled__2025-03-27T00:00:00+00:00 [queued]>
+[2025-05-23T18:29:44.569+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crypto_etl_pipeline.extract_data scheduled__2025-03-27T00:00:00+00:00 [queued]>
+[2025-05-23T18:29:44.569+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-23T18:29:44.582+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_data> on 2025-03-27 00:00:00+00:00
+[2025-05-23T18:29:44.589+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=495) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-23T18:29:44.590+0000] {standard_task_runner.py:72} INFO - Started process 501 to run task
+[2025-05-23T18:29:44.591+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'crypto_etl_pipeline', 'extract_data', 'scheduled__2025-03-27T00:00:00+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/crypto_etl_dag.py', '--cfg-path', '/tmp/tmp4eev3xad']
+[2025-05-23T18:29:44.592+0000] {standard_task_runner.py:105} INFO - Job 92: Subtask extract_data
+[2025-05-23T18:29:44.633+0000] {task_command.py:467} INFO - Running <TaskInstance: crypto_etl_pipeline.extract_data scheduled__2025-03-27T00:00:00+00:00 [running]> on host 1b0fd2a9e72d
+[2025-05-23T18:29:44.713+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crypto_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-27T00:00:00+00:00'
+[2025-05-23T18:29:44.714+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-23T18:29:44.715+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-23T18:29:44.716+0000] {logging_mixin.py:190} INFO - Current task name:extract_data state:running start_date:2025-05-23 18:29:44.562768+00:00
+[2025-05-23T18:29:44.716+0000] {logging_mixin.py:190} INFO - Dag name:crypto_etl_pipeline and current dag run status:running
+[2025-05-23T18:29:44.716+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-23T18:29:47.412+0000] {logging_mixin.py:190} INFO -                       datetime crypto currency          price
+0   2025-05-23T18:29:44.778661    BTC      USD  109094.710000
+1   2025-05-23T18:29:44.946899    BTC      BRL  617836.798441
+2   2025-05-23T18:29:45.103823    ETH      USD    2567.535000
+3   2025-05-23T18:29:45.268790    ETH      BRL   14540.738082
+4   2025-05-23T18:29:45.437057   USDT      USD       1.000235
+5   2025-05-23T18:29:45.631841   USDT      BRL       5.664638
+6   2025-05-23T18:29:45.796835    BNB      USD     668.696940
+7   2025-05-23T18:29:46.190528    BNB      BRL    3787.035839
+8   2025-05-23T18:29:46.231344    XRP      USD       2.360650
+9   2025-05-23T18:29:46.389073    XRP      BRL      13.369651
+10  2025-05-23T18:29:46.564051   DOGE      USD       0.234860
+11  2025-05-23T18:29:46.959178   DOGE      BRL       1.329829
+12  2025-05-23T18:29:47.000948    SOL      USD     180.105000
+13  2025-05-23T18:29:47.050968    SOL      BRL    1019.904898
+14  2025-05-23T18:29:47.212533    DOT      USD       4.732000
+15  2025-05-23T18:29:47.400971    DOT      BRL      26.798767
+[2025-05-23T18:29:47.414+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/scripts/extract.py", line 28, in extract_crypto_data
+    df.to_csv('C:/airflow/data/bronze/crypto_prices_raw.csv', index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'C:/***/data/bronze'
+[2025-05-23T18:29:47.427+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-05-23T18:29:47.427+0000] {logging_mixin.py:190} INFO - Task start:2025-05-23 18:29:44.562768+00:00 end:2025-05-23 18:29:47.426829+00:00 duration:2.864061
+[2025-05-23T18:29:47.428+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract_data> dag:<DAG: crypto_etl_pipeline> dagrun:<DagRun crypto_etl_pipeline @ 2025-03-27 00:00:00+00:00: scheduled__2025-03-27T00:00:00+00:00, state:running, queued_at: 2025-05-23 18:29:42.718252+00:00. externally triggered: False>
+[2025-05-23T18:29:47.428+0000] {logging_mixin.py:190} INFO - Failure caused by Cannot save file into a non-existent directory: 'C:/***/data/bronze'
+[2025-05-23T18:29:47.429+0000] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=crypto_etl_pipeline, task_id=extract_data, run_id=scheduled__2025-03-27T00:00:00+00:00, execution_date=20250327T000000, start_date=20250523T182944, end_date=20250523T182947
+[2025-05-23T18:29:47.634+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-23T18:29:47.634+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 92 for task extract_data (Cannot save file into a non-existent directory: 'C:/***/data/bronze'; 501)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/scripts/extract.py", line 28, in extract_crypto_data
+    df.to_csv('C:/airflow/data/bronze/crypto_prices_raw.csv', index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'C:/***/data/bronze'
+[2025-05-23T18:29:47.655+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-23T18:29:47.679+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-23T18:29:47.683+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

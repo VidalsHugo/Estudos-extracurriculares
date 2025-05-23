@@ -1,0 +1,46 @@
+[2025-05-23T19:10:42.032+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-23T19:10:42.046+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crypto_etl_pipeline.extract_data manual__2025-05-23T19:10:39.752489+00:00 [queued]>
+[2025-05-23T19:10:42.053+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crypto_etl_pipeline.extract_data manual__2025-05-23T19:10:39.752489+00:00 [queued]>
+[2025-05-23T19:10:42.054+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-23T19:10:42.065+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_data> on 2025-05-23 19:10:39.752489+00:00
+[2025-05-23T19:10:42.070+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=112) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-23T19:10:42.071+0000] {standard_task_runner.py:72} INFO - Started process 114 to run task
+[2025-05-23T19:10:42.072+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'crypto_etl_pipeline', 'extract_data', 'manual__2025-05-23T19:10:39.752489+00:00', '--job-id', '197', '--raw', '--subdir', 'DAGS_FOLDER/crypto_etl_dag.py', '--cfg-path', '/tmp/tmpkls2nnkz']
+[2025-05-23T19:10:42.073+0000] {standard_task_runner.py:105} INFO - Job 197: Subtask extract_data
+[2025-05-23T19:10:42.109+0000] {task_command.py:467} INFO - Running <TaskInstance: crypto_etl_pipeline.extract_data manual__2025-05-23T19:10:39.752489+00:00 [running]> on host aa19ac71657a
+[2025-05-23T19:10:42.182+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crypto_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-23T19:10:39.752489+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-23T19:10:39.752489+00:00'
+[2025-05-23T19:10:42.184+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-23T19:10:42.184+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-23T19:10:42.185+0000] {logging_mixin.py:190} INFO - Current task name:extract_data state:running start_date:2025-05-23 19:10:42.047554+00:00
+[2025-05-23T19:10:42.185+0000] {logging_mixin.py:190} INFO - Dag name:crypto_etl_pipeline and current dag run status:running
+[2025-05-23T19:10:42.185+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-23T19:10:46.031+0000] {logging_mixin.py:190} INFO -                       datetime crypto currency          price
+0   2025-05-23T19:10:42.226804    BTC      USD  109101.645000
+1   2025-05-23T19:10:42.398062    BTC      BRL  616352.638460
+2   2025-05-23T19:10:42.568581    ETH      USD    2572.675000
+3   2025-05-23T19:10:42.755822    ETH      BRL   14534.877566
+4   2025-05-23T19:10:42.931709   USDT      USD       1.000235
+5   2025-05-23T19:10:43.123017   USDT      BRL       5.652710
+6   2025-05-23T19:10:43.315642    BNB      USD     666.930273
+7   2025-05-23T19:10:43.727457    BNB      BRL    3769.077810
+8   2025-05-23T19:10:43.930791    XRP      USD       2.360200
+9   2025-05-23T19:10:44.147011    XRP      BRL      13.338957
+10  2025-05-23T19:10:44.533760   DOGE      USD       0.234630
+11  2025-05-23T19:10:44.917432   DOGE      BRL       1.325984
+12  2025-05-23T19:10:45.083503    SOL      USD     179.910000
+13  2025-05-23T19:10:45.265492    SOL      BRL    1016.909696
+14  2025-05-23T19:10:45.844814    DOT      USD       4.722000
+15  2025-05-23T19:10:46.018082    DOT      BRL      26.685826
+[2025-05-23T19:10:46.037+0000] {logging_mixin.py:190} INFO - Dados extraídos com sucesso!
+[2025-05-23T19:10:46.038+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-23T19:10:46.049+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-23T19:10:46.050+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=crypto_etl_pipeline, task_id=extract_data, run_id=manual__2025-05-23T19:10:39.752489+00:00, execution_date=20250523T191039, start_date=20250523T191042, end_date=20250523T191046
+[2025-05-23T19:10:46.076+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-23T19:10:46.076+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-23T19:10:46.077+0000] {logging_mixin.py:190} INFO - Dag name:crypto_etl_pipeline queued_at:2025-05-23 19:10:39.770744+00:00
+[2025-05-23T19:10:46.077+0000] {logging_mixin.py:190} INFO - Task hostname:aa19ac71657a operator:PythonOperator
+[2025-05-23T19:10:46.101+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-23T19:10:46.129+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-23T19:10:46.132+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
